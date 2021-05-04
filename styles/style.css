@@ -1,0 +1,218 @@
+*{
+    font-family: arial,sans-serif;
+    margin: 0;
+    font-size: 13px;
+  }
+  .divHeader {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .header{
+    font-size: 13px;
+    margin-top: 24px;
+    margin-left: 18px;
+    margin-right: 10px;
+  }
+  ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  .header1{
+    float: right;
+    padding-right: 15px;
+  }
+
+  a{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(53, 53, 53);
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .search_class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 1px solid gray;
+    background-color: transparent;
+  }
+  #acco{
+    position: relative;
+    top: -17px;
+    border-radius: 50%;
+    transform: scale(0.45);
+  }
+
+  #apps{
+    position: relative;
+    width: 20px;
+    top: -3px;
+    opacity: 0.75;
+    padding-left: 0px;
+  }
+
+  #logo {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    height: auto;
+  }
+
+  .bar_space{
+    display: flex;
+    justify-content: center;  
+  } 
+
+  #search_bar{
+    position: relative;
+    left: 45px;
+    top: 17px;
+    background-image: url(img/clue.png);
+    background-position: 4px 7px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding-left: 38px;
+    width: 530px;
+    height: 44px;
+    z-index: 1;
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #search_bar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+  }
+  #search_bar:focus{
+    outline: none;
+  }
+
+  #mic{
+    position: relative;
+    transform: scale(.42);
+    right: 55px;
+    top: 15px;
+    opacity: .9;
+    z-index: 2;
+  }
+  #mic:hover{
+    cursor: pointer;
+  }
+  #clue{
+    position: relative;
+    transform: scale(.42);
+    right: 522px;
+    top: 15px;
+    opacity: .9;
+    z-index: 2;
+  }
+  #clue:hover{
+    cursor: pointer;
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 6px;
+  }
+  .button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 7px 16px 0 16px;
+    line-height: 27px;
+    height: 34px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    text-decoration: none;
+  }
+  .myDiv {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .search-text {
+    margin-top: 28px;
+    text-align: center;
+    font-size: small;
+}
+  footer {
+    flex: 0 0 auto;
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    min-width: 350px;
+    color: rgba(95, 99, 104);
+    background-color: #f2f2f2;
+}
+  .footer-span {
+    margin-left: 3px;
+    padding-right: 30px;
+
+}
+  .footer-left{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-right {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+}
+  .footer{
+    padding-left: 27px;
+    color: rgb(95, 99, 104);
+    
+  }
+  .footer-country {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    margin-left: 3px;
+}
+.foot {
+    position: relative;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    background: #f2f2f2;
+    line-height: 40px;  
+}
+.footer-info {
+    font-size: 14px;
+}
